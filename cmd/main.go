@@ -12,5 +12,8 @@ func main() {
 	fmt.Println(hoge.HogeFunc())
 	fmt.Println(fuga.FugaFunc())
 	fmt.Println(util.UtilFunc())
+}
 
+func MainPackgeFunc() string {
+	return "MainPackage"
 }
